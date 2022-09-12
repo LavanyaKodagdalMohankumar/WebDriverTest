@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-11T18:23:06 EDT" name="WebDriver_Test" finished-at="2022-09-11T18:23:50 EDT" duration-ms="44073">
+    <groups>
+    </groups>
+    <test started-at="2022-09-11T18:23:06 EDT" name="Tests" finished-at="2022-09-11T18:23:50 EDT" duration-ms="44073">
+      <class name="Tests.DynamicContentTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.DynamicContentTest@795cd85e]" started-at="2022-09-11T18:23:15 EDT" name="initialize" finished-at="2022-09-11T18:23:16 EDT" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.DynamicContentTest@795cd85e]" started-at="2022-09-11T18:23:16 EDT" name="Contestmen" description="Dynamic Content" finished-at="2022-09-11T18:23:16 EDT" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.DynamicContentTest@795cd85e]" started-at="2022-09-11T18:23:16 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:17 EDT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.DynamicContentTest -->
+      <class name="Tests.IFramesTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.IFramesTest@61862a7f]" started-at="2022-09-11T18:23:41 EDT" name="initialize" finished-at="2022-09-11T18:23:41 EDT" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.IFramesTest@61862a7f]" started-at="2022-09-11T18:23:41 EDT" name="Contestmen" description="IFrames" finished-at="2022-09-11T18:23:42 EDT" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.IFramesTest@61862a7f]" started-at="2022-09-11T18:23:42 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:43 EDT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.IFramesTest -->
+      <class name="Tests.DynamicLoadingTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.DynamicLoadingTest@f5ac9e4]" started-at="2022-09-11T18:23:30 EDT" name="initialize" finished-at="2022-09-11T18:23:31 EDT" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.DynamicLoadingTest@f5ac9e4]" started-at="2022-09-11T18:23:31 EDT" name="Contestmen" description="Dynamic Loading" finished-at="2022-09-11T18:23:37 EDT" duration-ms="5535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.DynamicLoadingTest@f5ac9e4]" started-at="2022-09-11T18:23:37 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:37 EDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.DynamicLoadingTest -->
+      <class name="Tests.CheckboxTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.CheckboxTest@40ef3420]" started-at="2022-09-11T18:23:10 EDT" name="initialize" finished-at="2022-09-11T18:23:11 EDT" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Chcktest()[pri:0, instance:Tests.CheckboxTest@40ef3420]" started-at="2022-09-11T18:23:11 EDT" name="Chcktest" description="Checkboxes" finished-at="2022-09-11T18:23:11 EDT" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chcktest -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.CheckboxTest@40ef3420]" started-at="2022-09-11T18:23:11 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:11 EDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.CheckboxTest -->
+      <class name="Tests.JavaScriptErrorTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.JavaScriptErrorTest@1d9b7cce]" started-at="2022-09-11T18:23:46 EDT" name="initialize" finished-at="2022-09-11T18:23:47 EDT" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.JavaScriptErrorTest@1d9b7cce]" started-at="2022-09-11T18:23:47 EDT" name="Contestmen" description="JavaScriptError" finished-at="2022-09-11T18:23:47 EDT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.JavaScriptErrorTest@1d9b7cce]" started-at="2022-09-11T18:23:47 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:47 EDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.JavaScriptErrorTest -->
+      <class name="Tests.MouseHoverTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.MouseHoverTest@441772e]" started-at="2022-09-11T18:23:43 EDT" name="initialize" finished-at="2022-09-11T18:23:44 EDT" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.MouseHoverTest@441772e]" started-at="2022-09-11T18:23:44 EDT" name="Contestmen" description="MouseHover" finished-at="2022-09-11T18:23:44 EDT" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.MouseHoverTest@441772e]" started-at="2022-09-11T18:23:44 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:44 EDT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.MouseHoverTest -->
+      <class name="Tests.NotificationMessageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.NotificationMessageTest@42e99e4a]" started-at="2022-09-11T18:23:49 EDT" name="initialize" finished-at="2022-09-11T18:23:50 EDT" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.NotificationMessageTest@42e99e4a]" started-at="2022-09-11T18:23:50 EDT" name="Contestmen" description="Notification message" finished-at="2022-09-11T18:23:50 EDT" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.NotificationMessageTest@42e99e4a]" started-at="2022-09-11T18:23:50 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:50 EDT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.NotificationMessageTest -->
+      <class name="Tests.ContextMenuTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.ContextMenuTest@498d318c]" started-at="2022-09-11T18:23:11 EDT" name="initialize" finished-at="2022-09-11T18:23:12 EDT" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.ContextMenuTest@498d318c]" started-at="2022-09-11T18:23:12 EDT" name="Contestmen" description="Contextmenu" finished-at="2022-09-11T18:23:12 EDT" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.ContextMenuTest@498d318c]" started-at="2022-09-11T18:23:12 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:13 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.ContextMenuTest -->
+      <class name="Tests.FloatingMenuTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.FloatingMenuTest@384ad17b]" started-at="2022-09-11T18:23:39 EDT" name="initialize" finished-at="2022-09-11T18:23:40 EDT" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.FloatingMenuTest@384ad17b]" started-at="2022-09-11T18:23:40 EDT" name="Contestmen" description="Floating Menu" finished-at="2022-09-11T18:23:41 EDT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.FloatingMenuTest@384ad17b]" started-at="2022-09-11T18:23:41 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:41 EDT" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.FloatingMenuTest -->
+      <class name="Tests.DropdownTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.DropdownTest@402bba4f]" started-at="2022-09-11T18:23:14 EDT" name="initialize" finished-at="2022-09-11T18:23:15 EDT" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.DropdownTest@402bba4f]" started-at="2022-09-11T18:23:15 EDT" name="Contestmen" description="Dropdown" finished-at="2022-09-11T18:23:15 EDT" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.DropdownTest@402bba4f]" started-at="2022-09-11T18:23:15 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:15 EDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.DropdownTest -->
+      <class name="Tests.LoginFailureTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.LoginFailureTest@479d31f3]" started-at="2022-09-11T18:23:09 EDT" name="initialize" finished-at="2022-09-11T18:23:10 EDT" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Loginsutest()[pri:0, instance:Tests.LoginFailureTest@479d31f3]" started-at="2022-09-11T18:23:10 EDT" name="Loginsutest" description="Login Failure" finished-at="2022-09-11T18:23:10 EDT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginsutest -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.LoginFailureTest@479d31f3]" started-at="2022-09-11T18:23:10 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:10 EDT" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.LoginFailureTest -->
+      <class name="Tests.DragandDropTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.DragandDropTest@6e171cd7]" started-at="2022-09-11T18:23:13 EDT" name="initialize" finished-at="2022-09-11T18:23:13 EDT" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.DragandDropTest@6e171cd7]" started-at="2022-09-11T18:23:13 EDT" name="Contestmen" description="Drag and Drop" finished-at="2022-09-11T18:23:14 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.DragandDropTest@6e171cd7]" started-at="2022-09-11T18:23:14 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:14 EDT" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.DragandDropTest -->
+      <class name="Tests.FileUploadTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.FileUploadTest@dbf57b3]" started-at="2022-09-11T18:23:38 EDT" name="initialize" finished-at="2022-09-11T18:23:39 EDT" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.FileUploadTest@dbf57b3]" started-at="2022-09-11T18:23:39 EDT" name="Contestmen" description="File Upload" finished-at="2022-09-11T18:23:39 EDT" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.FileUploadTest@dbf57b3]" started-at="2022-09-11T18:23:39 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:39 EDT" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.FileUploadTest -->
+      <class name="Tests.JavaScriptAlertsTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.JavaScriptAlertsTest@7334aada]" started-at="2022-09-11T18:23:44 EDT" name="initialize" finished-at="2022-09-11T18:23:45 EDT" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.JavaScriptAlertsTest@7334aada]" started-at="2022-09-11T18:23:45 EDT" name="Contestmen" description="JavaScriptAlerts" finished-at="2022-09-11T18:23:45 EDT" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.JavaScriptAlertsTest@7334aada]" started-at="2022-09-11T18:23:45 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:46 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.JavaScriptAlertsTest -->
+      <class name="Tests.FileDownloadTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.FileDownloadTest@123ef382]" started-at="2022-09-11T18:23:37 EDT" name="initialize" finished-at="2022-09-11T18:23:38 EDT" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.FileDownloadTest@123ef382]" started-at="2022-09-11T18:23:38 EDT" name="Contestmen" description="File Download" finished-at="2022-09-11T18:23:38 EDT" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.FileDownloadTest@123ef382]" started-at="2022-09-11T18:23:38 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:38 EDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.FileDownloadTest -->
+      <class name="Tests.LoginSuccessTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.LoginSuccessTest@55b7a4e0]" started-at="2022-09-11T18:23:06 EDT" name="initialize" finished-at="2022-09-11T18:23:08 EDT" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Loginsutest()[pri:0, instance:Tests.LoginSuccessTest@55b7a4e0]" started-at="2022-09-11T18:23:08 EDT" name="Loginsutest" description="Login Success" finished-at="2022-09-11T18:23:09 EDT" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginsutest -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.LoginSuccessTest@55b7a4e0]" started-at="2022-09-11T18:23:09 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:09 EDT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.LoginSuccessTest -->
+      <class name="Tests.DynamicControlsTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.DynamicControlsTest@59fd97a8]" started-at="2022-09-11T18:23:17 EDT" name="initialize" finished-at="2022-09-11T18:23:17 EDT" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.DynamicControlsTest@59fd97a8]" started-at="2022-09-11T18:23:17 EDT" name="Contestmen" description="Dynamic Controls" finished-at="2022-09-11T18:23:30 EDT" duration-ms="12531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.DynamicControlsTest@59fd97a8]" started-at="2022-09-11T18:23:30 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:30 EDT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.DynamicControlsTest -->
+      <class name="Tests.NewWindowTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.NewWindowTest@4d9e68d0]" started-at="2022-09-11T18:23:47 EDT" name="initialize" finished-at="2022-09-11T18:23:48 EDT" duration-ms="1149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Contestmen()[pri:0, instance:Tests.NewWindowTest@4d9e68d0]" started-at="2022-09-11T18:23:48 EDT" name="Contestmen" description="New Window" finished-at="2022-09-11T18:23:48 EDT" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contestmen -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:Tests.NewWindowTest@4d9e68d0]" started-at="2022-09-11T18:23:48 EDT" name="TeardownTest" finished-at="2022-09-11T18:23:49 EDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.NewWindowTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- WebDriver_Test -->
+</testng-results>

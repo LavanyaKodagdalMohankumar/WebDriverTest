@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-WebDriver_Test" class="navigator-link">
+              <span class="suite-name border-passed">WebDriver_Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-WebDriver_Test" class="navigator-link ">
+                    <span>C:\Users\lavan\eclipse-workspace\WebDriver_Test\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-WebDriver_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-WebDriver_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-WebDriver_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-WebDriver_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-WebDriver_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-WebDriver_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WebDriver_Test" class="hide-methods passed suite-WebDriver_Test"> (hide)</a> <!-- hide-methods passed suite-WebDriver_Test -->
+                      <a href="#" panel-name="suite-WebDriver_Test" class="show-methods passed suite-WebDriver_Test"> (show)</a> <!-- show-methods passed suite-WebDriver_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-WebDriver_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.CheckboxTest" class="method navigator-link" hash-for-method="Chcktest">Chcktest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.DropdownTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.NotificationMessageTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.FileUploadTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.FloatingMenuTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.MouseHoverTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.DragandDropTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.JavaScriptAlertsTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.DynamicControlsTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.FileDownloadTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.NewWindowTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.ContextMenuTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.DynamicContentTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.DynamicLoadingTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.JavaScriptErrorTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.IFramesTest" class="method navigator-link" hash-for-method="Contestmen">Contestmen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.LoginSuccessTest" class="method navigator-link" hash-for-method="Loginsutest">Loginsutest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WebDriver_Test" title="Tests.LoginFailureTest" class="method navigator-link" hash-for-method="Loginsutest">Loginsutest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-WebDriver_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WebDriver_Test" class="panel WebDriver_Test">
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.IFramesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(IFrames)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.CheckboxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Chcktest">
+                  </a> <!-- Chcktest -->
+                  <span class="method-name">Chcktest</span>
+                  <em>
+(Checkboxes)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.DynamicContentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(Dynamic Content)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.FloatingMenuTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(Floating Menu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.DynamicLoadingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(Dynamic Loading)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.DropdownTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(Dropdown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.NewWindowTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(New Window)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.DragandDropTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(Drag and Drop)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.JavaScriptErrorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(JavaScriptError)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.FileUploadTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(File Upload)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.DynamicControlsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(Dynamic Controls)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.MouseHoverTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(MouseHover)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.LoginFailureTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Loginsutest">
+                  </a> <!-- Loginsutest -->
+                  <span class="method-name">Loginsutest</span>
+                  <em>
+(Login Failure)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.FileDownloadTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(File Download)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.NotificationMessageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(Notification message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.ContextMenuTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(Contextmenu)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.LoginSuccessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Loginsutest">
+                  </a> <!-- Loginsutest -->
+                  <span class="method-name">Loginsutest</span>
+                  <em>
+(Login Success)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+          <div class="suite-WebDriver_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.JavaScriptAlertsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contestmen">
+                  </a> <!-- Contestmen -->
+                  <span class="method-name">Contestmen</span>
+                  <em>
+(JavaScriptAlerts)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebDriver_Test-class-passed -->
+        </div> <!-- panel WebDriver_Test -->
+        <div panel-name="test-xml-WebDriver_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lavan\eclipse-workspace\WebDriver_Test\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;WebDriver_Test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;20&quot; name=&quot;Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.LoginSuccessTest&quot;/&gt;
+      &lt;class name=&quot;Tests.LoginFailureTest&quot;/&gt;
+      &lt;class name=&quot;Tests.CheckboxTest&quot;/&gt;
+      &lt;class name=&quot;Tests.ContextMenuTest&quot;/&gt;
+      &lt;class name=&quot;Tests.DragandDropTest&quot;/&gt;
+      &lt;class name=&quot;Tests.DropdownTest&quot;/&gt;
+      &lt;class name=&quot;Tests.DynamicContentTest&quot;/&gt;
+      &lt;class name=&quot;Tests.DynamicControlsTest&quot;/&gt;
+      &lt;class name=&quot;Tests.DynamicLoadingTest&quot;/&gt;
+      &lt;class name=&quot;Tests.FileDownloadTest&quot;/&gt;
+      &lt;class name=&quot;Tests.FileUploadTest&quot;/&gt;
+      &lt;class name=&quot;Tests.FloatingMenuTest&quot;/&gt;
+      &lt;class name=&quot;Tests.IFramesTest&quot;/&gt;
+      &lt;class name=&quot;Tests.MouseHoverTest&quot;/&gt;
+      &lt;class name=&quot;Tests.JavaScriptAlertsTest&quot;/&gt;
+      &lt;class name=&quot;Tests.JavaScriptErrorTest&quot;/&gt;
+      &lt;class name=&quot;Tests.NewWindowTest&quot;/&gt;
+      &lt;class name=&quot;Tests.NotificationMessageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Tests --&gt;
+&lt;/suite&gt; &lt;!-- WebDriver_Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WebDriver_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WebDriver_Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Tests (18 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WebDriver_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WebDriver_Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WebDriver_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WebDriver_Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WebDriver_Test');
+function tableData_WebDriver_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Contestmen')
+data.setCell(0, 2, 'Tests.DynamicControlsTest')
+data.setCell(0, 3, 12531);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Contestmen')
+data.setCell(1, 2, 'Tests.DynamicLoadingTest')
+data.setCell(1, 3, 5535);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Contestmen')
+data.setCell(2, 2, 'Tests.IFramesTest')
+data.setCell(2, 3, 921);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Contestmen')
+data.setCell(3, 2, 'Tests.NotificationMessageTest')
+data.setCell(3, 3, 742);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Contestmen')
+data.setCell(4, 2, 'Tests.DynamicContentTest')
+data.setCell(4, 3, 457);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Contestmen')
+data.setCell(5, 2, 'Tests.FileUploadTest')
+data.setCell(5, 3, 313);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Contestmen')
+data.setCell(6, 2, 'Tests.JavaScriptAlertsTest')
+data.setCell(6, 3, 284);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Contestmen')
+data.setCell(7, 2, 'Tests.MouseHoverTest')
+data.setCell(7, 3, 282);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Contestmen')
+data.setCell(8, 2, 'Tests.DropdownTest')
+data.setCell(8, 3, 276);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Loginsutest')
+data.setCell(9, 2, 'Tests.LoginSuccessTest')
+data.setCell(9, 3, 267);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Contestmen')
+data.setCell(10, 2, 'Tests.ContextMenuTest')
+data.setCell(10, 3, 260);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Loginsutest')
+data.setCell(11, 2, 'Tests.LoginFailureTest')
+data.setCell(11, 3, 235);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Chcktest')
+data.setCell(12, 2, 'Tests.CheckboxTest')
+data.setCell(12, 3, 233);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Contestmen')
+data.setCell(13, 2, 'Tests.NewWindowTest')
+data.setCell(13, 3, 228);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Contestmen')
+data.setCell(14, 2, 'Tests.FileDownloadTest')
+data.setCell(14, 3, 168);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Contestmen')
+data.setCell(15, 2, 'Tests.FloatingMenuTest')
+data.setCell(15, 3, 157);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Contestmen')
+data.setCell(16, 2, 'Tests.DragandDropTest')
+data.setCell(16, 3, 144);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Contestmen')
+data.setCell(17, 2, 'Tests.JavaScriptErrorTest')
+data.setCell(17, 3, 120);
+window.suiteTableData['WebDriver_Test']= { tableData: data, tableDiv: 'times-div-WebDriver_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <div id="times-div-WebDriver_Test">
+              </div> <!-- times-div-WebDriver_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WebDriver_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WebDriver_Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WebDriver_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WebDriver_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.LoginSuccessTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Loginsutest</span>
+                <span class="method-start">1933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">2203 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.LoginFailureTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">2283 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Loginsutest</span>
+                <span class="method-start">3237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">3473 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.CheckboxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">3515 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Chcktest</span>
+                <span class="method-start">4491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">4725 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.ContextMenuTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">4885 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">5827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">6088 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.DragandDropTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">6230 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">7124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">7269 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.DropdownTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">7406 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">8311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">8588 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.DynamicContentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">8717 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">9605 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">10062 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.DynamicControlsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">10193 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">11110 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">23642 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.DynamicLoadingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">23757 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">24908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">30443 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.FileDownloadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">30571 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">31455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">31624 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.FileUploadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">31766 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">32655 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">32968 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.FloatingMenuTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">33101 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">33988 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">34145 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.IFramesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">34278 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">35142 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">36064 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.MouseHoverTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">36242 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">37438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">37721 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.JavaScriptAlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">37868 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">38811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">39096 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.JavaScriptErrorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">39238 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">40445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">40565 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.NewWindowTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">40714 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">41863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">42092 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.NotificationMessageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">42209 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Contestmen</span>
+                <span class="method-start">43154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TeardownTest</span>
+                <span class="method-start">43897 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

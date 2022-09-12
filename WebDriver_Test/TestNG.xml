@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="WebDriver_Test" parallel="false" preserve-order="true">
+ <test thread-count="20" name="Tests">
+ <classes> 
+<class name="Tests.LoginSuccessTest"/>
+<class name="Tests.LoginFailureTest"/>
+<class name="Tests.CheckboxTest"/>
+<class name="Tests.ContextMenuTest"/>
+<class name="Tests.DragandDropTest"/>
+<class name="Tests.DropdownTest"/>
+<class name="Tests.DynamicContentTest"/>
+<class name="Tests.DynamicControlsTest"/>
+<class name="Tests.DynamicLoadingTest"/>
+<class name="Tests.FileDownloadTest"/>
+<class name="Tests.FileUploadTest"/>
+<class name="Tests.FloatingMenuTest"/>
+<class name="Tests.IFramesTest"/>
+<class name="Tests.MouseHoverTest"/>
+<class name="Tests.JavaScriptAlertsTest"/>
+<class name="Tests.JavaScriptErrorTest"/>
+<class name="Tests.NewWindowTest"/>
+<class name="Tests.NotificationMessageTest"/>
+
+
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
